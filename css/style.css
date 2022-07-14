@@ -1022,6 +1022,11 @@ hr {
     flex-direction: column;
   }
 }
+@media (max-width: 768px){
+  .comment_rigth {
+    transform: translateX(38px);
+  }
+}
 @media (min-width: 71.25em) {
   .progect-rigth {
     margin-bottom: 7.8125rem;
